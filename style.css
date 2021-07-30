@@ -33,7 +33,7 @@
     background: no-repeat;
     background-size: 20px 20px;
     background-repeat: no-repeat;
-    background-image: url("/C:/Users/Admin/Documents/Sem 5/WD Lab/apple/assets/images/apple.png.");
+    background-image: url("apple.png");
     background-position: center center;
     width: 16px;
     opacity: .8;
