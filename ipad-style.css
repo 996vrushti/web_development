@@ -1,0 +1,231 @@
+.navbar{
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 40px;
+    direction: ltr;
+    position: fixed;
+    background-color: black;
+    text-align: left;
+    box-sizing: content-box;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+.navbar > .navitem{
+    width: 100px;
+    height:20px;
+    /*text-align: center;*/
+    color: grey;
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    font-family: Monaco, Helvetica, sans-serif;
+}
+.navbar > .navitem > a:hover{
+    color: white;
+}
+.navbar > .navitem > .brandlogo{
+    width: 22px;
+    height: 20px;
+}
+
+a:link { text-decoration: none; color: grey; }
+a:visited { text-decoration: none; color: grey;}
+a:active { text-decoration: none; color: grey;}
+
+.navbar > .apple{
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    height: 44px;
+    z-index: 1;
+    width: 100px;
+    color: grey;
+    font-family: Monaco, Helvetica, sans-serif;
+}
+.apple-logo{
+    height: 44px;
+    background: no-repeat;
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-image: url("/C:/Users/Admin/Documents/Sem 5/WD Lab/apple/assets/images/apple.png.");
+    background-position: center center;
+    width: 16px;
+    opacity: .8;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 10px;
+    height: 44px;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.apple-logo:hover{
+    opacity: 1;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    width: 980px;
+    margin-top: 45px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.text-column{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    z-index: 1;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-width: 0px;
+    flex-basis: 25%;
+    max-width: 25%;
+}
+.text{
+    margin-top: 80px;
+    font-family:"SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: left;
+    pointer-events: all;
+}
+.text > .headline{
+    color: #1d1d1f;
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: inherit;
+}
+.text > .subhead-prod{
+    color: #1d1d1f;
+    font-size: 24px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: .004em;
+    font-family: inherit;
+    margin-top: 6px;
+}
+.text > .subhead-price{
+    color: #1d1d1f;
+    font-size: 17px;
+    font-family: inherit;
+    line-height: 1.47059;
+    letter-spacing: -.022em;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.text > .priceinfo{
+    margin-top: .8em;
+    font-size: 17px;
+    font-weight: 400;
+}
+.reflinks{
+    color: #06c;
+    box-sizing: content-box;
+    pointer-events: all;
+    text-align: left;
+    font-size: 21px;
+}
+.reflink{
+    cursor: pointer;
+    color: #06c;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    font-weight: 400;
+}
+.reflink-prod{
+    cursor: pointer;
+    color: #06c;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 17px;
+}
+.button{
+    cursor: pointer;
+    display: inline-block;
+    text-align: left;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    min-width: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 980px;
+    background: #0071e3;
+    color: #fff;
+}
+.para-a{
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+.para-b{
+    margin-top: 0.8em;
+}
+
+.img-column{
+    flex-basis: 66.66667%;
+    max-width: 66.66667%;
+}
+
+.gfooter{
+    width: 100%;
+    box-sizing: content-box;
+    letter-spacing: normal;
+    pointer-events: auto;
+    border-top: 1px solid #d2d2d7;
+    font-size: 13px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: normal;
+    position: fixed;
+    bottom: 0px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+.fitem{
+    margin-right: 30px;
+    color: grey;
+}
+.legallinks{
+    position: relative;
+    top: -5px;
+    z-index: 1;
+    margin-right: 30px;
+    margin-top: 5px;
+    color: #515154;
+    text-decoration: none;
+}
+.legallink{
+    border-right: 1px solid #d2d2d7;
+    margin-right: 7px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: 5px;
+    white-space: nowrap;
+}
+.lastlegallink{
+    margin-right: 7px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: 5px;
+    white-space: nowrap;
+}
+.legallinks > .footerlocal { 
+    float: right;
+    display: inline;
+    margin-left: 30px;
+    margin-top: 5px;
+}
